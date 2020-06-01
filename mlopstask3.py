@@ -3,7 +3,7 @@
 from parameters import *
 import pandas as pd
 dataset = pd.read_csv('Churn_Modelling.csv')
-dataset.columns
+#dataset.columns
 y = dataset['Exited']
 X = dataset[['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard',
        'IsActiveMember', 'EstimatedSalary']]
@@ -15,7 +15,7 @@ gender = dataset['Gender']
 
 gender = pd.get_dummies(gender, drop_first=True )
 X = pd.concat([X,gender,geo], axis=1)
-X.info()
+#X.info()
 from keras.optimizers import Adam
 from keras import metrics
 from sklearn.model_selection import train_test_split
