@@ -116,6 +116,7 @@ from keras.layers import Dense
 
 import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
+tf.autograph.set_verbosity(0)
 
 
 # In[19]:
@@ -174,7 +175,7 @@ history=model.fit(X_train,y_train , epochs=10 , verbose=0) #aresok
 # In[38]:
 
 
-print(history.history['accuracy'][9])
+accuracy_variable=history.history['accuracy'][9]
 
 
 # In[28]:
