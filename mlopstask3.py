@@ -3,7 +3,7 @@
 
 
 
-
+from parameters import *
 import pandas as pd
 
 
