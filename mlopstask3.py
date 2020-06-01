@@ -178,7 +178,7 @@ history=model.fit(X_train,y_train , epochs=10 , verbose=0) #aresok
 accuracy_variable=history.history['accuracy'][9]
 
 import os
-os.environ['ACCR']=accuracy_vairable
+os.environ['ACCR']=accuracy_variable 
 
 
 
