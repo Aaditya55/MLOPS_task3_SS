@@ -115,7 +115,8 @@ model = Sequential()
 
 from keras.layers import Dense
 
-
+import os 
+os.('clear')
 # In[19]:
 
 
@@ -177,9 +178,4 @@ history.history['accuracy'][9]
 
 # In[28]:
 
-
-df_loss.plot()# jaude he karun taku 0.7936 to 0.7945 okapna kay change keal?
-
-
-# In[ ]:
 
