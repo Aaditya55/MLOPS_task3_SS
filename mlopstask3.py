@@ -114,8 +114,8 @@ from keras.models import Sequential
 
 from keras.layers import Dense
 
-#import os 
-#os.system('clear')
+import tensorflow as tf
+tf.get_logger().setLevel('ERROR')
 
 
 # In[19]:
@@ -174,7 +174,7 @@ history=model.fit(X_train,y_train , epochs=10 , verbose=0) #aresok
 # In[38]:
 
 
-history.history['accuracy'][9]
+print(history.history['accuracy'][9])
 
 
 # In[28]:
