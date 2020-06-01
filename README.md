@@ -1,1 +1,6 @@
-# MLOPS_task3_SS
+MLOPS TASK 3
+
+Task description
+
+![](Screenshot (219).png)
+
