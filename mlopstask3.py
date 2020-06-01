@@ -179,6 +179,7 @@ accuracy_variable=history.history['accuracy'][9]
 
 import os
 os.environ['ACCR']=str(accuracy_variable)  
+os.system("$ACCR= {0}".format(str(accuracy_variable))
 
 
 
