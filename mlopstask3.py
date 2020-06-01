@@ -45,7 +45,7 @@ model.add(Dense(units=1,  activation='relu' ))
 model.compile(optimizer=Adam(learning_rate=var_lr),loss='binary_crossentropy',metrics=['accuracy'])
 
 #model.summary()
-history=model.fit(X_train,y_train , epochs=10 , verbose=0) #aresok
+history=model.fit(X_train,y_train , epochs=50 , verbose=0) #aresok
 
 
 # In[38]:
