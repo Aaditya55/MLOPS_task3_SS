@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+
 
 
 import pandas as pd
@@ -149,7 +149,6 @@ model.add(Dense(units=1,  activation='relu' ))
 # In[24]:
 
 
-var_lr=0.01 # ek gost trahili accuracy seprate print karaychi.yes
 
 
 # In[25]:
@@ -183,7 +182,4 @@ df_loss.plot()# jaude he karun taku 0.7936 to 0.7945 okapna kay change keal?
 
 
 # In[ ]:
-
-
-ok aahe na kami tr pahije mag incrase karu? ktuhe gela re
 
