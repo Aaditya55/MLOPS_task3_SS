@@ -114,8 +114,8 @@ from keras.models import Sequential
 
 from keras.layers import Dense
 
-import os 
-os.system('clear')
+#import os 
+#os.system('clear')
 
 
 # In[19]:
