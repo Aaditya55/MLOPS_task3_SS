@@ -107,7 +107,6 @@ from keras.models import Sequential
 # In[17]:
 
 
-model = Sequential()
 
 
 # In[18]:
@@ -116,9 +115,11 @@ model = Sequential()
 from keras.layers import Dense
 
 import os 
-os.('clear')
-# In[19]:
+os.system('clear')
 
+
+# In[19]:
+model =Sequential()
 
 model.add(Dense(units=6, input_dim=11, activation='relu' ))
 
